@@ -35,7 +35,7 @@ html{
     margin-top: 20px;
 }
 .p_icon{
-    background-image: url(./icon-sedans.svg);
+    background-image: url(./img/icon-sedans.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 50px;
@@ -65,7 +65,7 @@ html{
  margin-top: 20px;
 }
 .s_icon{
-    background-image: url(./icon-suvs.svg);
+    background-image: url(./img/icon-suvs.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 50px;
@@ -96,7 +96,7 @@ color: white;
  margin-top: 20px;
 }
 .t_icon{
-    background-image: url(./icon-luxury.svg);
+    background-image: url(./img/icon-luxury.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 50px;
