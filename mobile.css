@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sedans{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    background-color: #e38826;
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.sedans h1{
+ font-family: 'Big Shoulders Display', cursive;
+ font-weight: 400;
+ color: white;
+ font-size: 2.5rem;
+}
+.sedans h3{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-weight: 400;
+    width: 180px;
+    margin-top: 20px;
+}
+.p_icon{
+    background-image: url(./icon-sedans.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.suvs{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    background-color: #006970;
+    padding: 30px;
+    max-width: 300px;
+}
+.suvs h1{
+ font-family: 'Big Shoulders Display', cursive;
+ color: white;
+ font-weight: 400;
+ font-size: 2.5rem;
+}
+.suvs h3{
+ font-family: 'Lexend Deca', sans-serif;
+ color: white;
+ font-weight: 400;
+ width: 180px;
+ margin-top: 20px;
+}
+.s_icon{
+    background-image: url(./icon-suvs.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.luxury{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    background-color: #004241;
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 0 0 10px 10px;
+}
+.luxury h1{
+font-family: 'Big Shoulders Display', cursive;
+color: white;
+font-weight: 400;
+font-size: 2.5rem;
+}
+.luxury h3{
+font-family: 'Lexend Deca', sans-serif;
+color: white;
+ font-weight: 400;
+ width: 180px;
+ margin-top: 20px;
+}
+.t_icon{
+    background-image: url(./icon-luxury.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+a{
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 70%;
+    max-width: 130px;
+    margin-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.se{
+ color: #e38826;
+}
+.se:hover{
+    background-color: #e38826;
+    color: white;
+    border: white solid;
+}
+.s{
+ color: #006970;
+}
+.s:hover{
+    color: white;
+    border: white solid;
+    background-color: #006970;
+}
+.l{
+ color: #004241;
+}
+.l:hover{
+    color: white;
+    border: white solid;
+    background-color: #004241;
+}

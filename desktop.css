@@ -1,0 +1,30 @@
+@media(min-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 100px;
+        height: 400px;
+    }
+    .sedans{
+        padding: 60px;
+        border-radius: 10px 0 0 10px 
+    }
+    .sedans h1{
+        font-size: 3.5rem;
+    }
+    .suvs{
+        padding: 60px;
+    }
+    .suvs h1{
+        font-size: 3.5rem;
+    }
+    .luxury{
+        padding: 60px;
+        border-radius: 0 10px 10px 0;
+    }
+    .luxury h1{
+        font-size: 3.5rem;
+    }
+}
